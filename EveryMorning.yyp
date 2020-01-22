@@ -90,7 +90,7 @@
             "Key": "57737356-3a97-4f71-a4c5-317eec574204",
             "Value": {
                 "id": "7adb6159-cbc2-4f06-a6fc-af9426a6f013",
-                "resourcePath": "rooms\/room0\/room0.yy",
+                "resourcePath": "rooms\/rm_title_screen\/rm_title_screen.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -108,6 +108,14 @@
                 "id": "707c2c47-ad92-46a2-b51f-4133829488f9",
                 "resourcePath": "views\/886a1e1d-816c-408b-87c7-65f013e1a51c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8a75443f-d1a3-4049-86c2-fed8a272e297",
+            "Value": {
+                "id": "e07bd293-bb1d-4323-bab3-f897bd8b79e6",
+                "resourcePath": "objects\/obj_global\/obj_global.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -188,6 +196,14 @@
                 "id": "e903feb2-37c6-44f5-8ddb-ad77057d0318",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fd0de095-9b2a-47b8-86db-64e5ad8528a1",
+            "Value": {
+                "id": "7e0a9ac0-770c-4293-b8dc-2bee3f077e75",
+                "resourcePath": "rooms\/rm_bedroom\/rm_bedroom.yy",
+                "resourceType": "GMRoom"
             }
         }
     ],

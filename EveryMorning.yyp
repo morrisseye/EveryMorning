@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "32d3d27a-d59c-45b8-8fe7-39c4d3ae0d7e",
+            "Value": {
+                "id": "66cfc830-bec1-48e9-866f-f7951ca4c557",
+                "resourcePath": "sprites\/spr_start_button\/spr_start_button.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4405b583-79b8-4d7a-ac0a-7d236fafa16b",
             "Value": {
                 "id": "e0806e9e-8bf5-4acc-958f-e48cfc8c940a",
@@ -91,6 +99,22 @@
             "Value": {
                 "id": "7adb6159-cbc2-4f06-a6fc-af9426a6f013",
                 "resourcePath": "rooms\/rm_title_screen\/rm_title_screen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "58264d74-25cd-4494-b2a3-2e5899cde750",
+            "Value": {
+                "id": "64cc61a8-2a21-4e43-994e-e8cdeece420a",
+                "resourcePath": "rooms\/rm_credits\/rm_credits.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5d9687c8-6015-40c7-824b-8414aecb6b56",
+            "Value": {
+                "id": "14edf551-20d8-4f52-8bf7-5608c105aa7b",
+                "resourcePath": "rooms\/rm_options\/rm_options.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -188,6 +212,22 @@
                 "id": "5f179c7c-339b-490b-b9a7-665637ec2f99",
                 "resourcePath": "views\/d16c67b3-9cba-4cdd-a4e6-8ef473bf83fb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e6779fcb-4a3e-4b09-8a8c-d8309b63f0a6",
+            "Value": {
+                "id": "c2f41cdc-2186-454f-b501-fcf9da68b453",
+                "resourcePath": "objects\/obj_button_parent\/obj_button_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e7ea4a6c-dc57-411f-801f-d937f5a0b606",
+            "Value": {
+                "id": "320dfee4-875b-4430-8747-1941fe1a163b",
+                "resourcePath": "fonts\/fnt_title\/fnt_title.yy",
+                "resourceType": "GMFont"
             }
         },
         {

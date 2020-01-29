@@ -1,0 +1,1 @@
+draw_sprite_ext(note_sprite, 0, x, y, 1, 1, 0, c_white, 1);

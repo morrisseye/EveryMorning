@@ -1,0 +1,1 @@
+global.fail_state = true;

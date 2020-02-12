@@ -2,3 +2,4 @@
 //use obj
 note_to_spawn = noone;
 beat_timer = 60;
+note_spawned = false;

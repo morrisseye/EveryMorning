@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "179f16fd-097f-4f97-87f5-c399d03691b6",
+            "Value": {
+                "id": "ce4c4bb8-09bf-439b-9420-ee4f9b7c82f2",
+                "resourcePath": "objects\/obj_tempo\/obj_tempo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "19046025-955f-4707-b6e2-58bb2223cbb5",
             "Value": {
                 "id": "dde65af8-7b93-4c40-9c0d-fc5ea5f788c9",
@@ -239,6 +247,14 @@
             }
         },
         {
+            "Key": "955a8af8-ac9e-4c10-82a9-653d6b706274",
+            "Value": {
+                "id": "74fb221f-dc73-4392-8708-fdbddeb4e01c",
+                "resourcePath": "sprites\/spr_collision\/spr_collision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9ff81eaa-c3c1-4975-8d35-e8b81f964763",
             "Value": {
                 "id": "77f7827a-eb34-40a6-a0c7-692400ef3666",
@@ -260,6 +276,14 @@
                 "id": "a19d40c7-bcc2-4c9c-8364-83b620c4eb67",
                 "resourcePath": "sprites\/spr_controls_background\/spr_controls_background.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b44955a7-2558-47cc-bb94-666817449db2",
+            "Value": {
+                "id": "709d7c2b-355b-4aa7-a4cd-9ddc61fb6863",
+                "resourcePath": "objects\/obj_failstate_draw\/obj_failstate_draw.yy",
+                "resourceType": "GMObject"
             }
         },
         {

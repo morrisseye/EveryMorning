@@ -1,5 +1,12 @@
+global.bps = 2;
+global._fps = 60;
+
 global.pause_menu = false;
 global.fail_state = false;
+global.note_delay = 4;
+global.beat_delay = (global.note_delay * global._fps);
+
+
 
 #region define particles
 

@@ -3,7 +3,7 @@ if (global.pause_menu) { exit; }
 //change this for spawning on certain beat timing
 
 //if (beat_timer == 0)
-if (obj_tempo.tempo_beat_count == 4 or obj_tempo.tempo_beat_count == 6) and obj_tempo.tempo_count = 0
+if (obj_tempo.tempo_beat_count == (4 - global.note_delay) or obj_tempo.tempo_beat_count == (6 - global.note_delay)  ) and obj_tempo.tempo_count = 0
 {
 	note = instance_create_layer(x, y, "Instances", obj_note);
 	note.note_sprite = note_to_spawn;

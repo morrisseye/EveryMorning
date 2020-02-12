@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "9e8bf85f-e381-433f-8524-c425069a8d0b",
+            "Value": {
+                "id": "74e26fca-9a7c-466f-952d-c1dcb256f96c",
+                "resourcePath": "sounds\/snd_bathroom_song\/snd_bathroom_song.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9ff81eaa-c3c1-4975-8d35-e8b81f964763",
             "Value": {
                 "id": "77f7827a-eb34-40a6-a0c7-692400ef3666",

@@ -1,5 +1,13 @@
+//tempo stuff
 tempo_count++;
 if (tempo_count >= 30) { tempo_image_count = 1; tempo_count = 0; tempo_beat_count++;}
-else tempo_image_count = 0;
+else {tempo_image_count = 0; }
 
-if (tempo_count == 0 and tempo_beat_count == 0) { audio_play_sound(snd_bathroom_song, 1, 0) }
+tempo_frame_count++;
+if (tempo_frame_count = 60) { tempo_second_count++; tempo_frame_count = 0;}
+
+
+if (room == rm_bathroom)
+{
+	if (tempo_frame_count == 0 and tempo_second_count == 0) { audio_play_sound(snd_bathroom_song, 1, 0) }
+}

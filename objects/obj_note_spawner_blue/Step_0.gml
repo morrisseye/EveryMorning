@@ -19,7 +19,11 @@ if (global.pause_menu) { exit; }
 
 
 
-if ((obj_tempo.tempo_second_count - (global.note_delay)) == (4 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 45)// or
+if ((obj_tempo.tempo_second_count - (global.note_delay)) == (4 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 45 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (5 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 15 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (5 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 45 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (7 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 5 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (8 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 15)
 
 {
 	note = instance_create_layer(x, y, "Instances", obj_note);

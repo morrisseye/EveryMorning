@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "2a2cc8da-18e3-48e0-9d8b-35b1e9955b30",
+            "Value": {
+                "id": "ed27a861-3c8e-4163-9569-9b7f91a305f1",
+                "resourcePath": "sprites\\spr_brushTeeth_character\\spr_brushTeeth_character.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2b5c1a55-3ea4-46a1-8592-2182f016156c",
             "Value": {
                 "id": "4cff7d38-5ad9-4ddd-8fa0-ad3bff60e9d6",
@@ -260,6 +268,14 @@
                 "id": "c450a419-9211-42c2-8da6-86c350b2ebec",
                 "resourcePath": "views\/8eff9e8a-c24e-48a9-b284-a2d568862d1f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "91c324a1-be0f-4ad1-a6df-e27a50d0768d",
+            "Value": {
+                "id": "c3bf4c64-2bbc-40cc-b983-342f90484907",
+                "resourcePath": "sprites\\spr_credits_background\\spr_credits_background.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

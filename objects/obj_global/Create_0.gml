@@ -3,6 +3,7 @@ global._fps = 60;
 
 global.pause_menu = false;
 global.fail_state = false;
+global.win_state = false;
 global.note_delay = 4;
 global.beat_delay = (global.note_delay * (global._fps/3));
 
@@ -14,9 +15,9 @@ global.particle_system = part_system_create_layer("particles", true);
 
 global.part_note_hit = part_type_create();
 
-part_type_shape(global.part_note_hit, pt_shape_ring);
+part_type_sprite(global.part_note_hit, spr_note_red, false, false, false);
 
-part_type_size(global.part_note_hit, 0.05, 0.1, 0, 0.5);
+part_type_size(global.part_note_hit, 0.25, 0.5, .1, 0);
 
 part_type_color3(global.part_note_hit, c_aqua, c_lime, c_red);
 

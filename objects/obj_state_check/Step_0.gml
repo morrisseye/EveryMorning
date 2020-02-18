@@ -1,0 +1,1 @@
+if (obj_tempo.tempo_second_count > 55) { audio_stop_sound(snd_bathroom_song) room = rm_winstate;}

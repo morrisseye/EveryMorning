@@ -1,1 +1,2 @@
-fail_draw_count = 0;
+
+fail_draw_alpha = 0;

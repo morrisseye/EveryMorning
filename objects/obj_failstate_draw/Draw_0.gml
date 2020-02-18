@@ -1,22 +1,15 @@
 if (!global.fail_state) { exit; }
-fail_draw_count = fail_draw_count + .5;
-draw_set_font(fnt_title);
-draw_set_color(c_black);
 
-var w = 0;
-var h = 0;
+//fades in lose screen
+fail_draw_alpha += .1;
+draw_sprite_ext(spr_lose_screen, 1, 0, 0, 1, 1, 0, c_white, fail_draw_alpha);
 
-repeat(fail_draw_count)
+//after a delay, goes back to title and resets game
+if (fail_draw_alpha >= 50)
 {
-	draw_text_ext_transformed(0 + (512 * w), 0 + (64 * h), "GAME OVER.", 0, 10000, 3, 3, 0);
-	
-	h++
-	if (64 * h > 1080)
+	if audio_exists(snd_bathroom_song)
 	{
-		w = w + 1;
-		h = 0;
+		audio_stop_sound(snd_bathroom_song);
 	}
+	room = rm_failstate;
 }
-if fail_draw_count > 100 { room = rm_title_screen }
-
-show_debug_message(string(w));

@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "1ac86882-8d92-440f-9e10-4862eb9eefe9",
+            "Value": {
+                "id": "6e3f9366-1b97-4a66-a31c-3963fab648c2",
+                "resourcePath": "sprites\/spr_win_screen\/spr_win_screen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1c9617a9-656b-4def-ba0c-64bf01bba5e8",
             "Value": {
                 "id": "c333c8f8-2f06-4135-aa10-5bf85853cf30",
@@ -135,10 +143,26 @@
             }
         },
         {
+            "Key": "23be1333-1e0a-4e52-a662-dfddb9d1b465",
+            "Value": {
+                "id": "b955c9b1-40e1-4b41-aaa2-f12f4487f554",
+                "resourcePath": "views\/23be1333-1e0a-4e52-a662-dfddb9d1b465.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2b5c1a55-3ea4-46a1-8592-2182f016156c",
             "Value": {
                 "id": "4cff7d38-5ad9-4ddd-8fa0-ad3bff60e9d6",
                 "resourcePath": "sprites\/spr_title_background\/spr_title_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2f252fe3-5c1f-4228-a7b8-fa88fd8026f4",
+            "Value": {
+                "id": "febc827c-b1a1-494f-88b9-68388512c01b",
+                "resourcePath": "sprites\/spr_lose_screen\/spr_lose_screen.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -234,7 +258,7 @@
             "Key": "736714f4-0ec6-4404-bf2a-beeb1ca6095b",
             "Value": {
                 "id": "a4883b33-58ae-4859-808a-f220c19df465",
-                "resourcePath": "sprites\\spr_brushTeeth_character\\spr_brushTeeth_character.yy",
+                "resourcePath": "sprites\/spr_brushTeeth_character\/spr_brushTeeth_character.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -274,7 +298,7 @@
             "Key": "91c324a1-be0f-4ad1-a6df-e27a50d0768d",
             "Value": {
                 "id": "c3bf4c64-2bbc-40cc-b983-342f90484907",
-                "resourcePath": "sprites\\spr_credits_background\\spr_credits_background.yy",
+                "resourcePath": "sprites\/spr_credits_background\/spr_credits_background.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -287,10 +311,18 @@
             }
         },
         {
+            "Key": "9e7f633b-ffff-44ef-abc2-371b56350f4d",
+            "Value": {
+                "id": "6ed9bffc-7484-4210-b633-afa8412088cd",
+                "resourcePath": "sounds\/snd_bathroom_song\/snd_bathroom_song.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9e8bf85f-e381-433f-8524-c425069a8d0b",
             "Value": {
                 "id": "74e26fca-9a7c-466f-952d-c1dcb256f96c",
-                "resourcePath": "sounds\/snd_bathroom_song\/snd_bathroom_song.yy",
+                "resourcePath": "sounds\/snd_bathroom_song_\/snd_bathroom_song_.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -383,6 +415,14 @@
             }
         },
         {
+            "Key": "de584a61-a835-4617-8c05-581764e64c6c",
+            "Value": {
+                "id": "d4563779-e7ae-4a75-922f-f26a1e690b32",
+                "resourcePath": "rooms\/rm_failstate\/rm_failstate.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "e6779fcb-4a3e-4b09-8a8c-d8309b63f0a6",
             "Value": {
                 "id": "c2f41cdc-2186-454f-b501-fcf9da68b453",
@@ -412,6 +452,14 @@
                 "id": "e903feb2-37c6-44f5-8ddb-ad77057d0318",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fa807135-198e-479c-9056-037319e967ff",
+            "Value": {
+                "id": "0feb502b-6416-431d-b296-8baca8e036e7",
+                "resourcePath": "rooms\/rm_winstate\/rm_winstate.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

@@ -135,14 +135,6 @@
             }
         },
         {
-            "Key": "2a2cc8da-18e3-48e0-9d8b-35b1e9955b30",
-            "Value": {
-                "id": "ed27a861-3c8e-4163-9569-9b7f91a305f1",
-                "resourcePath": "sprites\\spr_brushTeeth_character\\spr_brushTeeth_character.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2b5c1a55-3ea4-46a1-8592-2182f016156c",
             "Value": {
                 "id": "4cff7d38-5ad9-4ddd-8fa0-ad3bff60e9d6",
@@ -235,6 +227,14 @@
             "Value": {
                 "id": "5ec7578f-8c97-4b95-b2b7-2649a267fc74",
                 "resourcePath": "sprites\/spr_bathroom_background\/spr_bathroom_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "736714f4-0ec6-4404-bf2a-beeb1ca6095b",
+            "Value": {
+                "id": "a4883b33-58ae-4859-808a-f220c19df465",
+                "resourcePath": "sprites\\spr_brushTeeth_character\\spr_brushTeeth_character.yy",
                 "resourceType": "GMSprite"
             }
         },

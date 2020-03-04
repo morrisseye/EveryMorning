@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "7f59ebb0-9b3b-4533-9b52-b793dee2a025",
+            "Value": {
+                "id": "112760bd-bb92-4b1e-81a2-266f32a71c13",
+                "resourcePath": "objects\/obj_fail_counter\/obj_fail_counter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "886a1e1d-816c-408b-87c7-65f013e1a51c",
             "Value": {
                 "id": "707c2c47-ad92-46a2-b51f-4133829488f9",

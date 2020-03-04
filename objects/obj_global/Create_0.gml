@@ -1,11 +1,16 @@
-global.bps = 2;
+//EDIT THESE
+
+global.fail_allowance = 4;
+
+
+//DO NOT EDIT THESE
 global._fps = 60;
 
 global.pause_menu = false;
 global.fail_state = false;
 global.win_state = false;
 global.note_delay = 4;
-global.beat_delay = (global.note_delay * (global._fps/3));
+
 
 
 

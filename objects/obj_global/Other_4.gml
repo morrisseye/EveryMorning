@@ -4,3 +4,11 @@ if (room = rm_bathroom)
 }
 
 if room = rm_failstate {global.fail_state = false;}
+
+//resets win/failstate
+if (room = rm_title_screen)
+{
+	global.fail_state = false;
+	global.win_state = false;
+	global.pause_menu = false;
+}

@@ -1,4 +1,4 @@
-tutorial_text[0] = @"Every morning is a game about the difficulty of living with OCD."
+tutorial_text[0] = @"Every Morning is a game about living with OCD."
 
 tutorial_text[1] = @"Many people only know and recognize the 'rituals' side of OCD. 
 These things are often portrayed as the entirety of the disease; 

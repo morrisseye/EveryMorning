@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "59431b76-858e-483a-b1d1-337f0d065a2c",
+            "Value": {
+                "id": "79832f5e-d241-4b1a-b953-e968427adda0",
+                "resourcePath": "objects\/obj_intrusive_thoughts\/obj_intrusive_thoughts.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "59fefea3-7e7a-49c9-97bf-50bb58624695",
             "Value": {
                 "id": "ae045bd6-a729-4674-94d6-3aaec044d25a",
@@ -492,6 +500,14 @@
                 "id": "e903feb2-37c6-44f5-8ddb-ad77057d0318",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f792dd88-4dbb-4835-8323-8b772ca9aed6",
+            "Value": {
+                "id": "6295c632-eb3a-479e-9cf1-6bc7a98c8e31",
+                "resourcePath": "fonts\/fnt_intrusive\/fnt_intrusive.yy",
+                "resourceType": "GMFont"
             }
         },
         {

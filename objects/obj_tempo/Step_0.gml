@@ -7,7 +7,7 @@ tempo_frame_count++;
 if (tempo_frame_count = 60) { tempo_second_count++; tempo_frame_count = 0;}
 
 
-if (room == rm_bathroom)
+if (room == rm_bathroom or room == rm_1 or room == rm_2 or room == rm_4)
 {
 	if (tempo_frame_count == 0 and tempo_second_count == 0) { audio_play_sound(snd_bathroom_song, 1, 0) }
 }

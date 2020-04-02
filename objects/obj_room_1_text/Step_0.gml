@@ -22,7 +22,12 @@ if cutscene_over
 	}
 	else
 	{
-		instance_create_layer(-100, -100, "Instances", obj_tempo);
-		instance_destroy();
+		
+		if audio_sound_get_track_position(snd_ringtone) = 0
+		{
+			audio_stop_sound(snd_ringtone)
+			instance_create_layer(-100, -100, "Instances", obj_tempo);
+			instance_destroy();
+		}
 	}
 }

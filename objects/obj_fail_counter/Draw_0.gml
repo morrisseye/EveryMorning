@@ -9,4 +9,5 @@ if (global.fail_state)
 if (fail_count > global.fail_allowance)
 {
 	global.fail_state = true;
+	audio_stop_all()
 }

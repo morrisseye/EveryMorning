@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "3fc367d4-71fb-4bd4-a5b0-01acdc3eae61",
+            "Value": {
+                "id": "99dda36b-ee5f-4065-8787-7a0adfa0e2d0",
+                "resourcePath": "sounds\/snd_ringtone\/snd_ringtone.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "438be73a-06e8-4fe8-ae3b-0a96f2141799",
             "Value": {
                 "id": "36d033a3-dca3-4025-bdff-9678033725d9",

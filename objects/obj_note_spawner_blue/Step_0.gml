@@ -1,4 +1,4 @@
-if (global.pause_menu) { exit; }
+if (global.pause_menu or instance_exists(obj_room_1_text)) { exit; }
 
 //change this for spawning on certain beat timing
 

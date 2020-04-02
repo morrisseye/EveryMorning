@@ -12,7 +12,7 @@ For those who have OCD, these intrusive thoughts become so overwhelming, the onl
 way to move past them is by performing the proper rituals."
 
 tutorial_text[4] = @"You have OCD. To get through the morning and get out of the house, 
-you’ll have to do everything just right, while not succumbing to your intrusive thoughts..."
+you'll have to do everything just right, while not succumbing to your intrusive thoughts..."
 
 array_num = 0;
 text_partial = "";

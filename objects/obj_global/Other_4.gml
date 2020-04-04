@@ -1,6 +1,13 @@
 if (room = rm_bathroom)
 {
 	//audio_play_sound(snd_bathroom_song, 1, 0)
+	global.note_delay = 4;
+}
+
+if room = rm_1
+{
+	//audio_play_sound(snd_bathroom_song, 1, 0)
+	global.note_delay = 4;
 }
 
 if room = rm_failstate {global.fail_state = false;}

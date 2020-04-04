@@ -1,4 +1,4 @@
-if (global.pause_menu or instance_exists(obj_room_1_text)) { exit; }
+if (global.pause_menu or !instance_exists(obj_tempo)) { exit; }
 
 //change this for spawning on certain beat timing
 
@@ -14,6 +14,28 @@ if (global.pause_menu or instance_exists(obj_room_1_text)) { exit; }
 //}
 
 
+#region intro
+
+if room = rm_1
+{
+
+if ((obj_tempo.tempo_second_count - (global.note_delay)) == (4 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 29 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (7 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 20 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (9 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 12 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (11 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 41)
+{
+	note = instance_create_layer(x, y, "Instances", obj_note);
+	note.note_sprite = note_to_spawn;
+	show_debug_message("note spawned")
+}
+}
+
+#endregion 
+
+#region teeth brushing
+
+if room = rm_bathroom
+{
 
 if ((obj_tempo.tempo_second_count - (global.note_delay)) == (5 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 34 or
 	(obj_tempo.tempo_second_count - (global.note_delay)) == (7 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 15 or
@@ -64,6 +86,10 @@ if ((obj_tempo.tempo_second_count - (global.note_delay)) == (5 - (global.note_de
 	note.note_sprite = note_to_spawn;
 	show_debug_message("note spawned")
 }
+
+}
+
+#endregion 
 
 //ticks the timer down once each frame
 //if (beat_timer < 0) {beat_timer = 60;}

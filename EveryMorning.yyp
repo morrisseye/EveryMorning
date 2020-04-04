@@ -215,14 +215,6 @@
             }
         },
         {
-            "Key": "3fc367d4-71fb-4bd4-a5b0-01acdc3eae61",
-            "Value": {
-                "id": "99dda36b-ee5f-4065-8787-7a0adfa0e2d0",
-                "resourcePath": "sounds\/snd_ringtone\/snd_ringtone.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "438be73a-06e8-4fe8-ae3b-0a96f2141799",
             "Value": {
                 "id": "36d033a3-dca3-4025-bdff-9678033725d9",
@@ -340,6 +332,14 @@
                 "id": "112760bd-bb92-4b1e-81a2-266f32a71c13",
                 "resourcePath": "objects\/obj_fail_counter\/obj_fail_counter.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "840d3aa1-b3c4-4a68-923f-1c84f7db808e",
+            "Value": {
+                "id": "82c8616b-3e95-4783-a18f-75285387d16c",
+                "resourcePath": "sounds\/snd_ringtone\/snd_ringtone.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -564,6 +564,14 @@
                 "id": "e903feb2-37c6-44f5-8ddb-ad77057d0318",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f73bd739-75b6-4269-80b6-0509e13be8e1",
+            "Value": {
+                "id": "9768f540-424a-4689-9b9a-938be9268bb0",
+                "resourcePath": "sounds\/snd_ringtone_intro\/snd_ringtone_intro.yy",
+                "resourceType": "GMSound"
             }
         },
         {

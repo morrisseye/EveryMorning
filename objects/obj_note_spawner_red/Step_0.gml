@@ -1,4 +1,4 @@
-if (global.pause_menu or instance_exists(obj_room_1_text)) { exit; }
+if (global.pause_menu or !instance_exists(obj_tempo)) { exit; }
 
 //change this for spawning on certain beat timing
 
@@ -14,7 +14,32 @@ if (global.pause_menu or instance_exists(obj_room_1_text)) { exit; }
 //	i++;
 //}
 
+#region intro
 
+if room = rm_1
+{
+
+	if ((obj_tempo.tempo_second_count - (global.note_delay)) == (0 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 18 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (0 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 40 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (1 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 30 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (1 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 54 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (3 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 52 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (6 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 45 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (8 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 12 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (10 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 36)
+	{
+		note = instance_create_layer(x, y, "Instances", obj_note);
+		note.note_sprite = note_to_spawn;
+		show_debug_message("note spawned")
+	}
+}
+
+#endregion
+
+#region teeth brushing
+
+if room = rm_bathroom
+{
 
 if ((obj_tempo.tempo_second_count - (global.note_delay)) == (0 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 45 or
 	(obj_tempo.tempo_second_count - (global.note_delay)) == (1 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 15 or
@@ -69,6 +94,9 @@ if ((obj_tempo.tempo_second_count - (global.note_delay)) == (0 - (global.note_de
 	note.note_sprite = note_to_spawn;
 	show_debug_message("note spawned")
 }
+}
+
+#endregion 
 
 //ticks the timer down once each frame
 //if (beat_timer < 0) {beat_timer = 60;}

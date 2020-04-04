@@ -25,9 +25,12 @@ if cutscene_over
 		
 		if audio_sound_get_track_position(snd_ringtone) = 0
 		{
-			audio_stop_sound(snd_ringtone)
 			instance_create_layer(-100, -100, "Instances", obj_tempo);
+			if audio_is_playing(snd_ringtone_intro)
+			{
+			audio_stop_sound(snd_ringtone)
 			instance_destroy();
+			}
 		}
 	}
 }

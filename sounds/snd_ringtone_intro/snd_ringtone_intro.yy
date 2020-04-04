@@ -1,8 +1,8 @@
 {
-    "id": "840d3aa1-b3c4-4a68-923f-1c84f7db808e",
+    "id": "f73bd739-75b6-4269-80b6-0509e13be8e1",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_ringtone",
+    "name": "snd_ringtone_intro",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

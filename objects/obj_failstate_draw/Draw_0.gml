@@ -16,7 +16,7 @@ if (fail_draw_alpha >= 10)
 	{
 		if (obj_intrusive_thoughts.intrusive_thought_to_use != noone)
 		{
-			show_debug_message("failstate room change")
+			//show_debug_message("failstate room change")
 			room = obj_intrusive_thoughts.intrusive_thought_to_use[1];
 			global.fail_state = false;
 		}

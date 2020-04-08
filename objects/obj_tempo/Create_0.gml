@@ -11,6 +11,7 @@ else
 tempo_second_count = -8;
 }
 
+show_debug_message("tempo created")
 
 tempo_frame_count = 0;
 

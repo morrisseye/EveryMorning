@@ -8,7 +8,7 @@ if (global.fail_state)
 //if greater than number of fails allowed
 if (fail_count > global.fail_allowance)
 {
-	show_debug_message("failed")
+	//show_debug_message("failed")
 	global.fail_state = true;
 	audio_stop_all()
 }

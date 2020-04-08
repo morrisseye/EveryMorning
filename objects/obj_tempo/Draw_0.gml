@@ -1,1 +1,0 @@
-draw_sprite(spr_beat_blue, tempo_image_count, x, y)

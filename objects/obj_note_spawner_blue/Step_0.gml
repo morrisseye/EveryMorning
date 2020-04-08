@@ -32,6 +32,136 @@ if room = rm_1
 
 #endregion
 
+#region shower
+
+if room = rm_2
+{
+if ((obj_tempo.tempo_second_count - (global.note_delay)) == (10 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 18 or
+(obj_tempo.tempo_second_count - (global.note_delay)) == (13 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 0 or
+(obj_tempo.tempo_second_count - (global.note_delay)) == (16 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 42 or
+(obj_tempo.tempo_second_count - (global.note_delay)) == (30 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 21 or
+(obj_tempo.tempo_second_count - (global.note_delay)) == (32 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 50 or
+(obj_tempo.tempo_second_count - (global.note_delay)) == (36 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 32 or
+(obj_tempo.tempo_second_count - (global.note_delay)) == (48 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 57 or
+(obj_tempo.tempo_second_count - (global.note_delay)) == (50 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 2 or
+(obj_tempo.tempo_second_count - (global.note_delay)) == (56 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 19 or
+(obj_tempo.tempo_second_count - (global.note_delay)) == (66 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 41 or
+(obj_tempo.tempo_second_count - (global.note_delay)) == (69 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 58 or
+(obj_tempo.tempo_second_count - (global.note_delay)) == (72 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 26 or
+(obj_tempo.tempo_second_count - (global.note_delay)) == (76 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 7 or
+(obj_tempo.tempo_second_count - (global.note_delay)) == (81 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 5)
+
+{
+	note = instance_create_layer(x, y, "Instances", obj_note);
+	note.note_sprite = note_to_spawn;
+	show_debug_message("note spawned")
+}
+}
+
+#endregion
+
+#region door
+
+if room = rm_4
+{
+	if ((obj_tempo.tempo_second_count - (global.note_delay)) == (1 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 20 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (4 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 15 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (7 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 8 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (8 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 34 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (12 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 22 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (15 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 45 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (18 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 5 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (18 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 31 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (22 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 36 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (27 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 7 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (29 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 58 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (32 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 50 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (35 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 45 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (40 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 0 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (41 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 26 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (44 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 19 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (45 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 34 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (46 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 9 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (46 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 36 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (49 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 0 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (49 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 58 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (51 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 24 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (52 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 53 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (55 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 12 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (55 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 45 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (56 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 51 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (60 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 55 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (64 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 6 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (66 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 9 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (68 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 3 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (68 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 33 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (70 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 26 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (72 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 22 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (78 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 31 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (80 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 30)
+
+	{
+		note = instance_create_layer(x, y, "Instances", obj_note);
+		note.note_sprite = note_to_spawn;
+		show_debug_message("note spawned")
+	}
+}
+
+#endregion
+
+#region dishes
+
+if room = rm_3
+{
+if ((obj_tempo.tempo_second_count - (global.note_delay)) == (1 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 0 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (1 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 48 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (3 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 30 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (4 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 5 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (5 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 48 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (8 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 53 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (9 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 38 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (10 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 18 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (10 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 53 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (13 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 41 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (17 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 39 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (18 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 45 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (19 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 5 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (19 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 55 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (22 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 27 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (27 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 10 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (29 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 15 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (31 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 31 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (32 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 24 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (36 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 26 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (40 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 36 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (47 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 41 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (49 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 22 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (51 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 55 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (54 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 12 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (55 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 36 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (56 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 12 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (56 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 26 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (58 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 24 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (61 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 0 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (62 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 15 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (64 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 38 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (66 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 36 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (69 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 45 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (71 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 26 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (73 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 24 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (73 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 41 or
+	(obj_tempo.tempo_second_count - (global.note_delay)) == (77 - (global.note_delay * 2)) and obj_tempo.tempo_frame_count == 5)
+
+
+	{
+		note = instance_create_layer(x, y, "Instances", obj_note);
+		note.note_sprite = note_to_spawn;
+		show_debug_message("note spawned")
+	}
+}
+
+#endregion
+
 #region teeth brushing
 
 if room = rm_bathroom

@@ -15,18 +15,21 @@ else if intrusive_on_screen < intrusive_duration
 	//picks which thought to use 
 	if (intrusive_thought_to_use = noone) or (intrusive_thought_to_use[1] = room)
 	{
-		intrusive_thought_to_use = intrusive_thoughts[irandom(3)];
+		intrusive_thought_to_use = intrusive_thoughts[irandom(array_length_1d(intrusive_thoughts)-1)];
 	}
 	
 
-
+	x = intrusive_coord_x
+	y = intrusive_coord_y
 	
 	draw_set_valign(fa_center);
 	draw_set_color(c_dkgray);
 	draw_set_font(fnt_intrusive);
-	draw_sprite_ext(intrusive_bubble, 0, intrusive_coord_x, intrusive_coord_y, 1, 1, 0, c_white, intrusive_alpha);
-	draw_text_ext_color(intrusive_coord_x, intrusive_coord_y + 28, intrusive_thought_to_use[0], 100, 100000, c_dkgray, c_dkgray, c_dkgray, c_dkgray, intrusive_alpha);
 	
+	draw_set_alpha(intrusive_alpha)
+	draw_self();
+	draw_text_ext_color(intrusive_coord_x, intrusive_coord_y , intrusive_thought_to_use[0], 30, 100000, c_dkgray, c_dkgray, c_dkgray, c_dkgray, intrusive_alpha);
+	draw_set_alpha(1)
 
 	intrusive_on_screen++;
 	

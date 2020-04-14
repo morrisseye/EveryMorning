@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "4184675f-2870-4632-82b8-d0b93a87fc02",
+            "Value": {
+                "id": "817aa805-3338-4ca1-a841-33b77ec279a0",
+                "resourcePath": "objects\/obj_screen_shake\/obj_screen_shake.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "438be73a-06e8-4fe8-ae3b-0a96f2141799",
             "Value": {
                 "id": "36d033a3-dca3-4025-bdff-9678033725d9",
@@ -476,6 +484,14 @@
                 "id": "ca60215c-a33f-45e8-b81b-5b1b0cf9a534",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "acf22aa1-d997-470d-b4b3-dec2b822a6c3",
+            "Value": {
+                "id": "74894c47-9895-455d-9cde-16878fea9218",
+                "resourcePath": "objects\/obj_note_hit_response\/obj_note_hit_response.yy",
+                "resourceType": "GMObject"
             }
         },
         {

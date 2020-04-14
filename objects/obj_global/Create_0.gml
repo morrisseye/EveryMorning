@@ -5,7 +5,7 @@ global.fail_allowance = 5;
 
 //DO NOT EDIT THESE
 global._fps = 60;
-
+global.song = noone;
 global.pause_menu = false;
 global.fail_state = false;
 global.win_state = false;

@@ -11,7 +11,7 @@ intrusive_alpha = 0;
 if room = rm_3
 {
 	intrusive_thoughts = [
-	[ @"YOU DIDN'T 
+	[ @"YOU DIDN'T
 WASH YOUR HAIR
 ENOUGH", rm_2],
 	]
@@ -24,7 +24,7 @@ if room = rm_bathroom
 	[ @"YOU DIDN'T
 WASH YOUR HAIR
 ENOUGH", rm_2],
-	[ @"THE DISHES AREN'T 
+	[ @"THE DISHES AREN'T
 CLEAN ENOUGH", rm_3],
 	]
 }
@@ -33,12 +33,12 @@ CLEAN ENOUGH", rm_3],
 if room = rm_4
 {
 	intrusive_thoughts = [
-	[ @"YOU DIDN'T 
+	[ @"YOU DIDN'T
 WASH YOUR HAIR
 ENOUGH", rm_2],
-	[ @"THE DISHES AREN'T 
+	[ @"THE DISHES AREN'T
 CLEAN ENOUGH", rm_3],
-	[ @"THERE'S STILL 
+	[ @"THERE'S STILL
 PLAQUE ON YOUR 
 TEETH", rm_bathroom],
 	]

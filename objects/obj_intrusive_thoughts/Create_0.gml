@@ -6,6 +6,7 @@ intrusive_bubble = spr_intrusive_bubble
 intrusive_coord_y = 0;
 intrusive_coord_x = 0;
 intrusive_alpha = 0;
+intrusive_text =  0;
 
 //dishes
 if room = rm_3

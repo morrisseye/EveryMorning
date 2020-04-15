@@ -18,9 +18,27 @@ else if intrusive_on_screen < intrusive_duration
 		intrusive_thought_to_use = intrusive_thoughts[irandom(array_length_1d(intrusive_thoughts)-1)];
 	}
 	
+	if intrusive_text = 0
+	{
+		//SHOWER
+		if intrusive_thought_to_use[1] = rm_2
+		{
+			intrusive_text = irandom_range(0, 2);
+		}
+		//DISHES
+		if intrusive_thought_to_use[1] = rm_3
+		{
+			intrusive_text = irandom_range(6, 8);
+		}
+		//DISHES
+		if intrusive_thought_to_use[1] = rm_bathroom
+		{
+			intrusive_text = irandom_range(3, 5);
+		}
+	}
 
-	x = intrusive_coord_x
-	y = intrusive_coord_y
+	x = intrusive_coord_x + random_range(-5, 5)
+	y = intrusive_coord_y + random_range(-5, 5)
 	
 	draw_set_valign(fa_center);
 	draw_set_color(c_dkgray);
@@ -28,7 +46,7 @@ else if intrusive_on_screen < intrusive_duration
 	
 	draw_set_alpha(intrusive_alpha)
 	draw_self();
-	draw_text_ext_color(intrusive_coord_x, intrusive_coord_y , intrusive_thought_to_use[0], 30, 100000, c_dkgray, c_dkgray, c_dkgray, c_dkgray, intrusive_alpha);
+	draw_sprite_ext(spr_intrusive_text, intrusive_text, x, y, 1, 1, 0, 0, intrusive_alpha);
 	draw_set_alpha(1)
 
 	intrusive_on_screen++;
@@ -41,6 +59,7 @@ else if intrusive_on_screen < intrusive_duration
 }
 if intrusive_on_screen >= intrusive_duration
 {
+	intrusive_text = 0;
 	intrusive_countdown = 0;
 	intrusive_thought_to_use = noone;
 	intrusive_on_screen = 0;

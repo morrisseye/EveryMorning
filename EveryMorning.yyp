@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "1a8c6ec8-98f0-4f90-b537-b9c74447b6b3",
+            "Value": {
+                "id": "9d227d33-2b62-414d-80cc-ede86b253e62",
+                "resourcePath": "sprites\/spr_intrusive_text\/spr_intrusive_text.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ac86882-8d92-440f-9e10-4862eb9eefe9",
             "Value": {
                 "id": "6e3f9366-1b97-4a66-a31c-3963fab648c2",

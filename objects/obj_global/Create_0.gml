@@ -1,6 +1,6 @@
 //EDIT THESE
 
-global.fail_allowance = 5;
+global.fail_allowance = 3;
 
 
 //DO NOT EDIT THESE

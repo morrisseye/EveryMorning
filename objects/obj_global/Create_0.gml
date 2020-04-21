@@ -10,6 +10,11 @@ global.pause_menu = false;
 global.fail_state = false;
 global.win_state = false;
 global.note_delay = 4;
+global_fade = 0;
+
+global.key1 = "A"
+global.key2 = "S"
+global.key3 = "D"
 
 
 

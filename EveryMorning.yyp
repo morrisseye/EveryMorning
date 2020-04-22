@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "114d0396-cc8d-4b3e-a927-00de36971d77",
+            "Value": {
+                "id": "637e0c9c-6153-4b33-b229-c6875d286a81",
+                "resourcePath": "objects\/obj_button_parent1\/obj_button_parent1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1292a460-a0d8-4995-9192-2f18cc23b3f9",
             "Value": {
                 "id": "a281ffa5-a06f-45bb-97a0-e5f625c4bac3",
@@ -195,6 +203,14 @@
             "Value": {
                 "id": "904732de-5876-4bc4-87ef-03351c8a2693",
                 "resourcePath": "objects\/obj_state_check\/obj_state_check.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "20f6ecdb-56a7-41f4-974f-13e0ab056909",
+            "Value": {
+                "id": "897a0637-4615-40ac-9948-e6e93c5aa373",
+                "resourcePath": "objects\/obj_credits\/obj_credits.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -356,6 +372,22 @@
                 "id": "f6edca27-ca8c-4faf-ac65-767bf4887681",
                 "resourcePath": "sounds\/snd_door_music\/snd_door_music.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "64b222ed-663f-47e5-935a-542c21eecf95",
+            "Value": {
+                "id": "873e7369-b59b-4ede-af56-c225d5aeb53d",
+                "resourcePath": "sprites\/spr_acadia\/spr_acadia.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "66eff7d8-fa73-4efc-b534-0020a22848a2",
+            "Value": {
+                "id": "31401468-2f98-4e85-aa3d-0205c890cfa1",
+                "resourcePath": "sprites\/spr_rebekah\/spr_rebekah.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -647,6 +679,14 @@
             }
         },
         {
+            "Key": "d7d0e546-5fd6-4331-ba9b-d2d3730ee2c3",
+            "Value": {
+                "id": "4f16a384-99a1-4087-a334-eae2c662b9f5",
+                "resourcePath": "sprites\/spr_emma\/spr_emma.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dddf4ab6-aec6-4b0f-a408-200f90566031",
             "Value": {
                 "id": "25b385e7-e5d3-4cdc-b960-f735c8a98317",
@@ -700,6 +740,14 @@
                 "id": "320dfee4-875b-4430-8747-1941fe1a163b",
                 "resourcePath": "fonts\/fnt_title\/fnt_title.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "e973f0e4-1743-436c-8114-bb802618e8b4",
+            "Value": {
+                "id": "f1935beb-5ff3-45b4-a551-54d9f68d7d5b",
+                "resourcePath": "sprites\/spr_jack\/spr_jack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

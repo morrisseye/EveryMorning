@@ -1,4 +1,4 @@
-if remap_enable and keyboard_check_pressed(vk_anykey) 
+if remap_enable and keyboard_check_pressed(vk_anykey) and chr(keyboard_key) != remap_new_key
 {
 	show_debug_message("REMAP ENABLED")
 	remap_new_key = chr(keyboard_key);

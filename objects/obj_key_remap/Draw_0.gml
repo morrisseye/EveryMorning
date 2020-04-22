@@ -1,12 +1,5 @@
-if (y + remap_draw_y < 535)
-{
-	remap_draw_y += 15;
-	y = y + remap_draw_y
-}
-else
-{
-	y = 535
-}
+
+
 
 draw_sprite(remap_sprite, 0, x, y);
 draw_set_font(fnt_title)

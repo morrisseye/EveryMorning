@@ -1,4 +1,4 @@
-if !remap_enable and (obj_key_remap.remap_enable = false)
+if !remap_enable and obj_key_remap.remap_enable = false
 {
 remap_enable = true;
 remap_sprite = remap_sprite_down;

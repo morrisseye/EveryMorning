@@ -3,6 +3,7 @@
 global.fail_allowance = 3;
 
 
+
 //DO NOT EDIT THESE
 global._fps = 60;
 global.song = noone;
@@ -11,6 +12,12 @@ global.fail_state = false;
 global.win_state = false;
 global.note_delay = 4;
 global_fade = 0;
+room_transition_wait = 0;
+global.transition_text = "";
+
+global.transitioning = false
+global.roomgoto = noone;
+global.alpha = 0;
 
 global.key1 = "A"
 global.key2 = "S"

@@ -1,9 +1,9 @@
 if (!global.fail_state) { exit; }
 
 //fades in lose screen
-fail_draw_alpha += .025;
+fail_draw_alpha += .015;
 draw_sprite_ext(spr_lose_screen, 1, 0, 0, 1, 1, 0, c_black, fail_draw_alpha);
-draw_sprite(spr_fail_anim, fail_draw_alpha* 6, 0, 0)
+draw_sprite(spr_fail_anim, fail_draw_alpha* 20, 0, 0)
 
 //after a delay, goes back to title and resets game
 if (fail_draw_alpha >= 10)

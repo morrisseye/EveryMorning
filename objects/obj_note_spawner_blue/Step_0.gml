@@ -156,7 +156,6 @@ if ((obj_tempo.tempo_second_count - (global.note_delay)) == (1 - (global.note_de
 	{
 		note = instance_create_layer(x, y, "Instances", obj_note);
 		note.note_sprite = note_to_spawn;
-		show_debug_message("note spawned")
 	}
 }
 

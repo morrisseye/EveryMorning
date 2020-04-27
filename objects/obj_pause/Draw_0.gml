@@ -1,0 +1,1 @@
+if global.pause_menu { draw_sprite(credits_sprite, 1, x, y); }

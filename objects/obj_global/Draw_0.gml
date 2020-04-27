@@ -19,3 +19,13 @@ else if (room != rm_options and room != rm_credits) and global_fade > 0
 	draw_rectangle(0 - 1000, 0 - 1000, display_get_width() + 1000, display_get_height() + 1000, false)
 	draw_set_alpha(1);
 }
+
+if (global.pause_menu) { 
+	
+	draw_set_color(c_black)
+	draw_set_alpha(.5)
+	draw_rectangle(-1000, -1000, 10000, 11000, false)
+	draw_set_alpha(1)
+	
+	
+	}

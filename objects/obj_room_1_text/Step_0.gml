@@ -29,7 +29,6 @@ if cutscene_over
 			if audio_is_playing(snd_ringtone_intro)
 			{
 			audio_stop_sound(snd_ringtone)
-			layer_set_visible("bg", true);
 			instance_destroy();
 			}
 		}

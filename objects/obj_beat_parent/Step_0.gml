@@ -60,3 +60,13 @@ else if (_note = noone and keyboard_check_pressed(beat_keymap))
 	}
 	obj_screen_shake.cam_shake_enabled = true
 }
+
+//room 1 stuff
+if room != rm_1 { exit; }
+if !instance_exists(obj_hand_animate) { exit; }
+
+if (instance_place(x, y, obj_note) and obj_hand_animate.alarm_animate = false)
+{
+	show_debug_message("animating")
+	obj_hand_animate.alarm_animate = true;
+}

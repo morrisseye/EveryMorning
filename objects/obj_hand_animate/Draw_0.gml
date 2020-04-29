@@ -7,6 +7,7 @@ if alarm_animate and alarm_frames >= 5.9
 {
 	show_debug_message("finished animating")
 	layer_set_visible("bg", true);
+	layer_set_visible("Assets_2", true);
 	instance_destroy();
 }
 else if !alarm_animate

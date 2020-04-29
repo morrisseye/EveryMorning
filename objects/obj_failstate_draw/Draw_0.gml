@@ -1,6 +1,7 @@
 if (!global.fail_state) { exit; }
 
 //fades in lose screen
+obj_screen_shake.cam_shake_enabled = false
 fail_draw_alpha += .015;
 draw_sprite_ext(spr_lose_screen, 1, 0, 0, 1, 1, 0, c_black, fail_draw_alpha);
 draw_sprite(spr_fail_anim, fail_draw_alpha* 20, 0, 0)
